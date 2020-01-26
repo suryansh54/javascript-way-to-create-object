@@ -1,13 +1,13 @@
 # Way to create Object
 
 <ul>
-  <li><a href="javascript:;" title="Using the Object() constructor">Using the Object() constructor</a></li>
-  <li><a href="javascript:;" title="Using Object.create() method">Using Object.create() method</a></li>
-  <li><a href="javascript:;" title="Using the bracket's syntactig sugar (Object Literal)">Using the bracket's syntactig sugar (Object Literal)</a></li>
-  <li><a href="javascript:;" title="Using a function constructor">Using a function constructor</a></li>
-  <li><a href="javascript:;" title="Using the function constructor + prototype">Using the function constructor + prototype</a></li>
-  <li><a href="javascript:;" title="Using ES6 class syntax">Using ES6 class syntax</a></li>
-  <li><a href="javascript:;" title="Singleton pattern">Singleton pattern</a></li>
+  <li><a href="#using-the-object-constructor" title="Using the Object() constructor">Using the Object() constructor</a></li>
+  <li><a href="#using-objectcreate-method" title="Using Object.create() method">Using Object.create() method</a></li>
+  <li><a href="#using-the-brackets-syntactig-sugar-object-literal" title="Using the bracket's syntactig sugar (Object Literal)">Using the bracket's syntactig sugar (Object Literal)</a></li>
+  <li><a href="#using-a-function-constructor" title="Using a function constructor">Using a function constructor</a></li>
+  <li><a href="#using-the-function-constructor--prototype" title="Using the function constructor + prototype">Using the function constructor + prototype</a></li>
+  <li><a href="#using-es6-class-syntax" title="Using ES6 class syntax">Using ES6 class syntax</a></li>
+  <li><a href="#singleton-pattern" title="Singleton pattern">Singleton pattern</a></li>
 </ul>
 
 
