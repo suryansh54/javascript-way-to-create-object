@@ -45,6 +45,21 @@ function myObj(){};
 myObj.prototype.name = "hello";
 var k = new myObj();
 ```
+**Note:** Notice that an arrow function cannot be used as a constructor. JavaScript implicitly prevents from doing that by throwing an exception.
+#### Reason
+Executing new Message('Hello World!'), where Message is an arrow function, JavaScript throws a TypeError that Message cannot be used as a constructor.
+- To be a constructor, a function object must have a [[Construct]] internal method.
+- Functions created with the function keyword are constructors, as are some built-in functions such as Date. These are the functions you can use with new.
+- Other function objects do not have a [[Construct]] internal method. These include arrow functions. So you can't use new with these. This makes sense since you can't set the this value of an arrow function.
+Some built-in functions are also not constructors. E.g. you can't do new parseInt().
+
+```javascript
+const Message = function(text) {
+  this.text = text;
+};
+const helloMessage = new Message('Hello World!');
+console.log(helloMessage.text); // => 'Hello World!'
+```
 
 ### Using ES6 class syntax
 
