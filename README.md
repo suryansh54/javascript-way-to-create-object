@@ -54,12 +54,14 @@ Executing new Message('Hello World!'), where Message is an arrow function, JavaS
 Some built-in functions are also not constructors. E.g. you can't do new parseInt().
 
 ```javascript
-const Message = function(text) {
+const Message = (text) => {
   this.text = text;
 };
+// Throws "TypeError: Message is not a constructor"
 const helloMessage = new Message('Hello World!');
-console.log(helloMessage.text); // => 'Hello World!'
 ```
+#### When 'Not' to Use Arrow Functions
+https://dmitripavlutin.com/when-not-to-use-arrow-functions-in-javascript/
 
 ### Using ES6 class syntax
 
