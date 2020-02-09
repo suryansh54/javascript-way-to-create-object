@@ -60,6 +60,17 @@ const Message = (text) => {
 // Throws "TypeError: Message is not a constructor"
 const helloMessage = new Message('Hello World!');
 ```
+
+```javascript
+// You can not create object using new. Because constructor not available
+console.dir(parseInt) 
+console.dir(() => "Hello")
+
+// You can create object using new. Because constructor available
+console.dir(function(){}) 
+console.dir(class abc{}) 
+```
+
 #### When 'Not' to Use Arrow Functions
 https://dmitripavlutin.com/when-not-to-use-arrow-functions-in-javascript/
 
